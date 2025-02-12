@@ -11,13 +11,13 @@ header {
   top: 0;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 5vw;
   background-color: rgb(235, 235, 241);
 }
 
 .header-logo {
   font-family: "Courier New", Courier, monospace;
-  margin-left: 20px;
+  margin-left: 3vw;
   font-weight: 700;
 }
 
@@ -29,19 +29,18 @@ header {
   color: black;
 }
 
-.firstImage {
-  display: flex;
+/* .firstImage {
   justify-content: center;
-}
+} */
 
-.section1 {
-  display: flex;
+.aboutSection {
+  display:inline-block;
   justify-content: center;
   margin-top: 4vw;
 }
 
 .secondImage {
-  display: inline-block;
+  display: inline;
   padding: 4vw;
 }
 
@@ -51,9 +50,10 @@ header {
   text-align: center;
 }
 
-hr {
+hr{
+  margin: auto;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -90,7 +90,4 @@ hr {
   font-weight: 100;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-.menuImg {
 }
